@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docmed Health Care for family</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/tailwindcss.min.css" />
+  </head>
+  <body class="font-sans">
+    <!-------- Header Section Markup --------->
+    <header id="header" class="w-full relative overflow-hidden">
+      <button
+        id="mobile_btn"
+        class="bg-white absolute right-2 top-2 p-2 z-50 rounded-md lg:hidden"
+      >
+        <img class="w-5 h-4" src="./img/open.png" alt="" />
+      </button>
+      <div class="inner_header bg-blue-200">
+        <div class="container w-3/4 mx-auto">
+          <div class="top_header py-5 text-center lg:flex lg:justify-between">
+            <div
+              class="social_icons mb-4 w-1/5 mx-auto lg:mb-0 lg:w-auto lg:mx-0"
+            >
+              <ul class="flex list-none">
+                <li class="mr-3">
+                  <a href=""
+                    ><i
+                      class="fab fa-facebook text-gray-400 text-[20px] hover:text-blue-500 transition-colors"
+                    ></i
+                  ></a>
+                </li>
+                <li class="mr-3">
+                  <a href=""
+                    ><i
+                      class="fab fa-linkedin text-gray-400 text-[20px] hover:text-blue-500 transition-colors"
+                    ></i
+                  ></a>
+                </li>
+                <li class="mr-3">
+                  <a href=""
+                    ><i
+                      class="fab fa-google-plus-g text-gray-400 text-[20px] hover:text-blue-500 transition-colors"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="contact_address">
+              <ul class="sm:flex sm:justify-between">
+                <li class="mr-5">
+                  <i class="fas fa-envelope mr-4 sm:mb-0 mb-3 text-blue-500"></i
+                  >info@docmed.com
+                </li>
+                <li><i class="fas fa-phone mr-4 text-blue-500"></i>160160</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="inner_main_header py-4">
+        <div class="container w-10/12 sm:w-3/4 mx-auto">
+          <div class="main_header flex justify-between">
+            <div class="logo">
+              <img class="w-28" src="./img/logo.webp" alt="" />
+            </div>
+            <nav
+              id="nav"
+              class="hidden absolute w-full text-center py-5 sm:py-1 sm:z-40 top-0 right-0 bg-blue-500 lg:bg-transparent lg:static lg:top-0 lg:right-0 lg:inline-block lg:w-auto"
+            >
+              <ul class="lg:flex lg:space-x-3">
+                <li class="mb-1 lg:mb-0">
+                  <a
+                    href=""
+                    class="hover:text-white transition-colors lg:hover:text-blue-600"
+                    >Home</a
+                  >
+                </li>
+                <li class="mb-1 lg:mb-0">
+                  <a
+                    href=""
+                    class="hover:text-white transition-colors lg:hover:text-blue-600"
+                    >Department</a
+                  >
+                </li>
+                <li class="mb-1 lg:mb-0">
+                  <a
+                    href=""
+                    class="hover:text-white transition-colors lg:hover:text-blue-600"
+                    >Blog</a
+                  >
+                </li>
+                <li class="mb-1 lg:mb-0">
+                  <a
+                    href=""
+                    class="hover:text-white transition-colors lg:hover:text-blue-600"
+                    >Page</a
+                  >
+                </li>
+                <li class="mb-1 lg:mb-0">
+                  <a
+                    href=""
+                    class="hover:text-white transition-colors lg:hover:text-blue-600"
+                    >Doctors</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="hover:text-white transition-colors lg:hover:text-blue-600"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <a
+              href=""
+              class="bg-blue-500 text-white py-1 px-3 rounded-md hover:bg-gray-400 transition-colors"
+              >Make an Appointment</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--------- Banner Section Markup -------->
+    <section
+      id="banner"
+      class="w-full h-screen bg-center bg-no-repeat bg-cover relative"
+      style="background-image: url('./img/banner.webp')"
+    >
+      <div class="inner_banner w-3/4 mx-auto">
+        <div
+          class="banner_content lg:w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:top-[32%] lg:left-[12%] lg:translate-x-0 lg:translate-y-0"
+        >
+          <h1 class="text-2xl mb-6 sm:text-4xl xl:text-5xl">
+            <span class="font-bold">Health Care</span><br />
+            for Hole Family
+          </h1>
+          <p class="mb-9">
+            In healthcare sectior, service excellence is the facility of the
+            Hospital as healthcare service provider to consistently
+          </p>
+          <a
+            class="text-white bg-blue-400 rounded-md hover:bg-gray-400 transition-colors py-2 px-5 font-bold"
+            href=""
+            >Check Our Service</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--------- Services Section Markup -------->
+    <section id="services">
+      <div class="inner_services bg-blue-300 xl:bg-blue-300 sm:py-8 lg:py-0">
+        <div class="container lg:w-full lg:mx-auto xl:w-3/4 xl:mx-auto">
+          <div
+            class="service_cards grid grid-rows-3 sm:grid-cols-2 sm:grid-rows-2 gap-4 lg:grid-rows-1 lg:grid-cols-3 lg:gap-0"
+          >
+            <div class="card py-8 px-12 lg:bg-blue-300">
+              <h3 class="text-[24px] text-white mb-3">Hospitality</h3>
+              <p class="text-white mb-8">
+                Clinical excellence must be the priority for any health care
+                services provider
+              </p>
+              <a
+                href=""
+                class="hover:bg-blue-600 transition-colors capitalize text-white py-2 px-6 border-[2px] rounded-lg"
+                >Apply for a bed</a
+              >
+            </div>
+            <div
+              class="card bg-blue-600 sm:bg-transparent lg:bg-blue-600 py-8 px-12"
+            >
+              <h3 class="text-[24px] text-white mb-3">Emergency Care</h3>
+              <p class="text-white mb-8">
+                Clinical excellence must be the priority for any health care
+                services provider
+              </p>
+              <a
+                href=""
+                class="hover:bg-blue-300 transition-colors capitalize text-white py-2 px-6 border-[2px] rounded-lg"
+                >+10 672 356 3567</a
+              >
+            </div>
+            <div class="card py-8 px-12 lg:bg-blue-300">
+              <h3 class="text-[24px] text-white mb-3">Chamber Service</h3>
+              <p class="text-white mb-8">
+                Clinical excellence must be the priority for any health care
+                services provider
+              </p>
+              <a
+                href=""
+                class="hover:bg-blue-600 transition-colors capitalize text-white py-2 px-6 border-[2px] rounded-lg"
+                >Make an Appointment</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------- Best Care for good health Section Markup -------->
+    <section id="bestCare" class="py-[100px]">
+      <div class="container w-3/4 lg:w-5/6 mx-auto">
+        <div class="maindiv lg:grid lg:grid-rows-1 lg:grid-cols-2 lg:gap-12">
+          <div class="left relative pb-28">
+            <img
+              class="w-[60%] lg:h-[300px]"
+              src="./img/x1.png.pagespeed.ic.U_DRbIH0OK.webp"
+              alt=""
+            />
+            <img
+              class="w-[60%] lg:h-[300px] absolute top-14 right-3"
+              src="./img/x2.png.pagespeed.ic.WZmdpsJ_nD.webp"
+              alt=""
+            />
+          </div>
+          <div class="right">
+            <h4 class="text-center mb-5 font-semibold xl:mb-12">
+              Welcome to Docmed
+            </h4>
+            <h2 class="font-bold text-3xl mb-3 lg:text-gray-600">
+              Best Care For Your Good Health
+            </h2>
+            <p class="text-justify mb-3">
+              Esteem spirit temper too say adieus who direct esteem. It esteems
+              luckily or picture placing drawing. Apartments frequently or
+              motionless on reasonable projecting expresstion.
+            </p>
+            <ul class="mb-10 lg:mb-6">
+              <li>Apartments frequently or motionless</li>
+              <li>Duls aute irure dolor in reprechenderit in voluptate.</li>
+              <li>Voluptatem quia volupta sit aspernatur.</li>
+            </ul>
+            <a
+              class="text-blue-400 border-[2px] border-blue-400 capitalize text-[18px] font-semibold py-2 px-8 rounded-md hover:bg-blue-600 hover:text-black hover:border-black transition-colors"
+              href=""
+              >learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------- Department Section Markup -------->
+    <section id="departments" class="bg-green-100 py-[60px]">
+      <div class="container w-3/4 mx-auto">
+        <h2 class="text-center font-bold text-3xl mb-3">Our Departments</h2>
+        <p class="text-gray-600 text-center text-[15px] mb-10">
+          Esteem spirit temper too say adieus who direct esteem. It esteems
+          luckily or picture placing drawing.
+        </p>
+        <div
+          class="gellary grid grid-rows-1 sm:grid-rows-3 sm:grid-cols-2 gap-7 lg:grid-cols-3 lg:grid-rows-2"
+        >
+          <div class="carts bg-white">
+            <img
+              class="xl:w-full"
+              src="./img/x1.png.pagespeed.ic.x3qDs-wH_Z.png"
+              alt=""
+            />
+            <div class="texts p-6">
+              <h4 class="text-2xl font-semibold mb-2 capitalize">Eye Care</h4>
+              <p class="mb-3 text-gray-600">
+                Esteem spirit temper too say adieus who direct esteem.
+              </p>
+              <a class="text-blue-500" href="">Learn More</a>
+            </div>
+          </div>
+          <div class="carts bg-white">
+            <img
+              class="xl:w-full"
+              src="./img/x2.png.pagespeed.ic.uaL3VgmWbh.webp"
+              alt=""
+            />
+            <div class="texts p-6">
+              <h4 class="text-2xl font-semibold mb-2 capitalize">
+                Physical Therapy
+              </h4>
+              <p class="mb-3 text-gray-600">
+                Esteem spirit temper too say adieus who direct esteem.
+              </p>
+              <a class="text-blue-500" href="">Learn More</a>
+            </div>
+          </div>
+          <div class="carts bg-white">
+            <img
+              class="xl:w-full"
+              src="./img/x3.png.pagespeed.ic.zpAN733a8c.png"
+              alt=""
+            />
+            <div class="texts p-6">
+              <h4 class="text-2xl font-semibold mb-2 capitalize">
+                Dental Care
+              </h4>
+              <p class="mb-3 text-gray-600">
+                Esteem spirit temper too say adieus who direct esteem.
+              </p>
+              <a class="text-blue-500" href="">Learn More</a>
+            </div>
+          </div>
+          <div class="carts bg-white">
+            <img
+              class="xl:w-full"
+              src="./img/x4.png.pagespeed.ic.28IHJtAY2d.webp"
+              alt=""
+            />
+            <div class="texts p-6">
+              <h4 class="text-2xl font-semibold mb-2 capitalize">
+                Diagnostic Test
+              </h4>
+              <p class="mb-3 text-gray-600">
+                Esteem spirit temper too say adieus who direct esteem.
+              </p>
+              <a class="text-blue-500" href="">Learn More</a>
+            </div>
+          </div>
+          <div class="carts bg-white">
+            <img
+              class="xl:w-full"
+              src="./img/x5.png.pagespeed.ic.AJvtqHVhNN.png"
+              alt=""
+            />
+            <div class="texts p-6">
+              <h4 class="text-2xl font-semibold mb-2 capitalize">
+                Skin Surgery
+              </h4>
+              <p class="mb-3 text-gray-600">
+                Esteem spirit temper too say adieus who direct esteem.
+              </p>
+              <a class="text-blue-500" href="">Learn More</a>
+            </div>
+          </div>
+          <div class="carts bg-white">
+            <img
+              class="xl:w-full"
+              src="./img/x6.png.pagespeed.ic.H_Jz9l-DBS.png"
+              alt=""
+            />
+            <div class="texts p-6">
+              <h4 class="text-2xl font-semibold mb-2 capitalize">
+                Surgery Service
+              </h4>
+              <p class="mb-3 text-gray-600">
+                Esteem spirit temper too say adieus who direct esteem.
+              </p>
+              <a class="text-blue-500" href="">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------- Middle Banner Section Markup -------->
+    <section
+      id="middle_banner"
+      style="
+        background-image: linear-gradient(
+            rgba(161, 218, 236, 0.548),
+            rgba(81, 203, 233, 0.514)
+          ),
+          url('./img/banner2.webp');
+      "
+      class="w-full h-[500px] bg-cover bg-center bg-no-repeat relative"
+    >
+      <div
+        class="middle_banner_content text-white w-1/2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+      >
+        <p class="text-center mb-10">
+          Donec imperdiet conque orci consequat mattis. donec rutrum porttitor
+          sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec
+          sed neque. Fusce ac mattis nulla. Morbi eget arnare dui.
+        </p>
+
+        <h4 class="text-center">Asana Korim</h4>
+      </div>
+    </section>
+
+    <!--------- Leading edge care Section Markup -------->
+    <section id="edgeCare">
+      <div class="inner_edgeCare bg-green-100 pt-[50px]">
+        <div class="three_btn w-3/4 mx-auto space-y-3 lg:flex lg:space-y-0">
+          <button
+            class="w-full font-semibold capitalize bg-white hover:bg-white transition-colors py-3"
+          >
+            Excellent Service
+          </button>
+          <button
+            class="w-full font-semibold capitalize hover:bg-white transition-colors py-3"
+          >
+            Qualified Doctors
+          </button>
+          <button
+            class="w-full font-semibold capitalize hover:bg-white transition-colors py-3"
+          >
+            Emergency Departments
+          </button>
+        </div>
+        <div class="slider3 bg-white py-8">
+          <div
+            class="inner_slider3 w-3/4 mx-auto py-5 flex flex-col lg:flex-row lg:space-x-7"
+          >
+            <div class="xl:pt-[200px] xl:w-1/2">
+              <h3 class="font-bold mb-5 xl:text-2xl">
+                Leading edge care for your family
+              </h3>
+              <p class="text-gray-500 text-justify mb-8">
+                Esteem spirit temper too say adieus who direct esteem. It
+                esteems luckily picture placing drawing. Apartments frequently
+                or motionless on reasonable projecting expresstion.
+              </p>
+            </div>
+            <img
+              class="lg:w-1/2"
+              src="./img/xbusiness.png.pagespeed.ic.T1vlgqVj2y.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------- Expart Doctors Section Markup -------->
+    <section id="doctors" class="pt-[50px] pb-24">
+      <div class="inner_doctor w-3/4 mx-auto">
+        <h2 class="capitalize text-center mb-6 font-bold text-2xl">
+          Expart Doctors
+        </h2>
+        <div
+          class="grid grid-rows-4 sm:grid-rows-2 sm:grid-cols-2 gap-5 lg:grid-cols-4 lg:grid-rows-1"
+        >
+          <div class="doctor_cart bg-green-100">
+            <img
+              class="w-full"
+              src="./img/x2.png.pagespeed.ic.IG-jB4LJxU.webp"
+              alt=""
+            />
+            <div class="text-center py-4">
+              <h3 class="font-bold text-xl">Mirazul Alom</h3>
+              <span class="text-gray-400">Neurologist</span>
+            </div>
+          </div>
+          <div class="doctor_cart bg-green-100">
+            <img
+              class="w-full"
+              src="./img/x1.png.pagespeed.ic.2EznENOFkd.webp"
+              alt=""
+            />
+            <div class="text-center py-4">
+              <h3 class="font-bold text-xl">Mirazul Alom</h3>
+              <span class="text-gray-400">Neurologist</span>
+            </div>
+          </div>
+          <div class="doctor_cart bg-green-100">
+            <img
+              class="w-full"
+              src="./img/x3.png.pagespeed.ic.ShbXP_lpvJ.webp"
+              alt=""
+            />
+            <div class="text-center py-4">
+              <h3 class="font-bold text-xl">Mirazul Alom</h3>
+              <span class="text-gray-400">Neurologist</span>
+            </div>
+          </div>
+          <div class="doctor_cart bg-green-100">
+            <img
+              class="w-full"
+              src="./img/x4.png.pagespeed.ic.qkGIuOxLyX.png"
+              alt=""
+            />
+            <div class="text-center py-4">
+              <h3 class="font-bold text-xl">Mirazul Alom</h3>
+              <span class="text-gray-400">Neurologist</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------- Double Banner Section Markup -------->
+    <section id="double_banner">
+      <div class="flex flex-col md:flex-row">
+        <div
+          class="bg-cover bg-no-repeat bg-center sm:py-12 md:w-1/2"
+          style="
+            background-image: linear-gradient(
+                rgba(109, 185, 230, 0.438),
+                rgba(142, 235, 230, 0.541)
+              ),
+              url(./img/xemergency-1.png.pagespeed.ic.dzkR_tLkpJ.webp);
+          "
+        >
+          <div class="w-3/4 mx-auto py-8 text-white">
+            <div>
+              <h3 class="font-bold mb-3 text-[17px] capitalize">
+                for any Emergency contact
+              </h3>
+              <h3 class="mb-5">Esteem spirit temper too say adieus</h3>
+            </div>
+            <a
+              class="hover:bg-blue-300 transition-colors capitalize text-white py-2 px-6 border-[2px] rounded-lg"
+              href=""
+              >+10 378 4673 467</a
+            >
+          </div>
+        </div>
+        <div
+          class="bg-cover bg-no-repeat bg-center sm:py-12 md:w-1/2"
+          style="
+            background-image: linear-gradient(
+                rgba(63, 185, 255, 0.384),
+                rgba(28, 153, 255, 0.541)
+              ),
+              url(./img/xemergency-2.png.pagespeed.ic.Db7myp6yIE.webp);
+          "
+        >
+          <div class="w-3/4 mx-auto py-8 text-white">
+            <div>
+              <h3 class="font-bold mb-3 text-[17px] capitalize">
+                make an online Appointment
+              </h3>
+              <h3 class="mb-5">Esteem spirit temper too say adieus</h3>
+            </div>
+            <a
+              class="hover:bg-blue-300 transition-colors capitalize text-white py-2 px-6 border-[2px] rounded-lg"
+              href=""
+              >Make an Appointment</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------- Footer area Markup -------->
+    <footer id="footer" class="bg-gray-900 py-[60px] sm:py-[100px]">
+      <div
+        class="inner_footer w-5/6 mx-auto flex flex-col gap-9 sm:grid sm:grid-rows-2 sm:grid-cols-2 lg:grid-rows-1 lg:grid-cols-4 lg:gap-2"
+      >
+        <div class="footer_cart text-gray-400">
+          <img
+            class="bg-white py-2 px-3 rounded-md mb-9"
+            src="./img/logo.webp"
+            alt=""
+          />
+          <p class="mb-8">
+            Firmament morning sizth subdue darkness creeping gathered divide.
+          </p>
+          <ul class="flex space-x-3">
+            <li>
+              <a href="" class="text-4xl"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" class="text-4xl"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" class="text-4xl"
+                ><i class="fab fa-instagram-square"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_cart text-gray-400">
+          <h2 class="text-center sm:text-left text-3xl text-white mb-9">
+            Departments
+          </h2>
+          <ul class="space-y-4">
+            <li>
+              <a class="hover:text-white transition-colors" href="">Eye Care</a>
+            </li>
+            <li>
+              <a class="hover:text-white transition-colors" href=""
+                >Skin Care</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-white transition-colors" href="">Pathlogy</a>
+            </li>
+            <li>
+              <a class="hover:text-white transition-colors" href="">Medicine</a>
+            </li>
+            <li>
+              <a class="hover:text-white transition-colors" href="">Dental</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_cart text-gray-400">
+          <h2 class="text-center sm:text-left text-3xl text-white mb-9">
+            Useful Links
+          </h2>
+          <ul class="space-y-4">
+            <li>
+              <a class="hover:text-white transition-colors" href="">About</a>
+            </li>
+            <li>
+              <a class="hover:text-white transition-colors" href="">Blog</a>
+            </li>
+            <li>
+              <a class="hover:text-white transition-colors" href="">Gellary</a>
+            </li>
+            <li>
+              <a class="hover:text-white transition-colors" href="">Contact</a>
+            </li>
+            <li>
+              <a class="hover:text-white transition-colors" href=""
+                >Appointment</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer_cart text-gray-400">
+          <h2 class="text-center sm:text-left text-3xl text-white mb-9">
+            Address Links
+          </h2>
+          <address>
+            200, D-Block, Green Iane USA <br />
+            +103674678934 <br />
+            docmed@contact.com
+          </address>
+        </div>
+      </div>
+    </footer>
+
+    <!--------- Copywrite area Markup -------->
+    <section id="copywrite" class="bg-black py-7">
+      <div class="inner_copyWrite w-4/5 mx-auto">
+        <p class="text-gray-600 text-center">
+          copywrite@2023 All rights reserved | This templete designed by Rakibu
+          Hasan
+        </p>
+      </div>
+    </section>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
